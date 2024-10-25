@@ -1,0 +1,29 @@
+Operations on GIT
+1. Config
+git config --global user.name "name"
+
+2. Git init & add
+git init
+git add file.txt
+
+3. Dlff
+git diff
+
+4. status 
+Git status
+
+5. remote add
+git remote add Testing https://github.com/b1ack-knight2/Testing.git
+
+6. Git branch and checkout
+git branch -M main
+
+6. log
+Git log
+
+7. Reset 
+Git reset --hard
+
+8. git stash
+git stash
+
