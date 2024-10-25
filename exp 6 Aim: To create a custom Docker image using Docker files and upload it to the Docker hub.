@@ -1,0 +1,26 @@
+Aim: To create a custom Docker image using Docker files and upload it to the Docker hub.
+
+Steps Followed:
+1.	Install Docker:
+●	Download and install Docker Desktop from the official Docker website based on your operating system.
+●	Follow the installation instructions to set up Docker.
+
+2.	Download a Project from GitHub:
+●	Choose a project from GitHub that contains a Dockerfile, which defines the container environment.
+
+3.	Build a Docker Image:
+●	Open a terminal and navigate to the directory containing the Dockerfile.
+●	Run the command to build a Docker image, e.g., docker build -t welcome-to-docker.
+●	This command creates an image based on the instructions in the Dockerfile.
+
+4.	Check the Built Image:
+●	Go to the Docker Desktop's Image tab to verify that the image has been successfully built.
+5.	Run the Container:
+●	Start a container based on the image by specifying a container name and port.
+●	Runs the application in the container and maps port 3000 on your local machine to port 80 in the container.
+
+6.	Access the Application:
+●	Open a web browser and go to localhost:3000. You should see your application running in the container.
+
+7.	Remove the Container:
+●	Once you're done, you can stop and remove the container by going to the Docker Desktop's Container tab.
