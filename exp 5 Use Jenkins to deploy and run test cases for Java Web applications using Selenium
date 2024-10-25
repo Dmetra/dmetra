@@ -1,0 +1,37 @@
+Aim: Use Jenkins to deploy and run test cases for Java/Web applications using Selenium/JUni..
+
+Step 1: Install Docker Desktop
+Download and install Docker Desktop from the official Docker website.
+Follow the installation instructions for your operating system.
+
+Step 2: Setup WSL
+1.	Install and Update WSL:
+Open the command prompt (CMD) or PowerShell as an administrator.
+Run the following command to install WSL 2: wsl --install
+After the installation, reboot your system.
+Once your system reboots, open the command prompt (CMD) or WSL terminal again.
+2.	Update WSL:
+To ensure you have the latest version of WSL, run: wsl –update
+
+3.	Enable WSL Integration:
+Open Docker Desktop settings.
+Navigate to the "Resources" section and select "WSL Integration."
+Enable the WSL integration for the desired WSL distribution.
+
+Step 3: Pull Image 
+Open the command prompt (CMD) or WSL terminal.
+Run the following command to pull the "alpine" image from Docker Hub: docker pull alpine
+
+Step 4: Check Images 
+To verify that the "alpine" image has been downloaded, run: docker images
+
+Step 5: Run Container 
+Create and enter an "alpine" container using the following command: docker run -it alpine
+The -it flag allows you to interact with the container using the terminal.
+This command starts a new instance of the "alpine" image and opens a terminal within the container.
+
+Step 6: Explore the Container 
+You'll now be inside the "alpine" container's terminal.
+You can explore the container, run commands, and interact with the isolated environment.
+For example, you can try running commands like ls, echo, etc.
+
