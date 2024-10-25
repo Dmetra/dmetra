@@ -1,0 +1,19 @@
+Aim: To Setup and Run Selenium Tests in Jenkins Using Maven.
+
+Installed Apache Maven.
+Installed Eclipse for Maven project development.
+Added a Maven project in Eclipse.
+
+Created a Freestyle project in Jenkins.
+Configured the Jenkins project with appropriate settings.
+
+In the build steps, added the path to your Maven project and the command mvn clean test, and saved the configuration.
+ex-
+cd  C: \Users \student \Down10ads \ maven
+mvn clean test
+echo success
+
+Used the "Build Now" option in Jenkins to initiate the build process.
+Observed output for both success and failure cases.
+
+Manually ran the command mvn clean test in the command prompt and received a successful result
