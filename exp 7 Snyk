@@ -1,0 +1,22 @@
+Aim: To implement Application and code security testing using snyk.
+
+1.	Go to Snyk Website:
+Visit the Snyk website (https://snyk.io/).
+
+2.	Create an Account:
+Sign up for a Snyk account if you don't already have one.
+
+3.	Choose Integration Method:
+Decide how you want to integrate Snyk into your development workflow, such as using the Snyk CLI or integrations with your CI/CD pipeline.
+
+4.	Install Snyk CLI:
+If you choose to use the Snyk CLI, follow the installation instructions for your platform. For Windows, you can use the following command:
+curl https://static.snyk.io/cli/latest/snyk-win.exe -o snyk.exe 
+
+5.	Authenticate Your Machine:
+Run the command snyk auth to authenticate your machine with your Snyk account.
+6.	Scan for Security Issues:
+Before scanning, navigate to your project's directory.
+Ensure Snyk Code is enabled in the Snyk settings.
+Run the following command to scan your code for vulnerabilities:
+snyk code test --org=04c00119-817c-4791-bc5a-a814134efa86
