@@ -1,0 +1,18 @@
+Aim: To implement version control using GitHub to sync local git repositories and perform various related operations
+
+Git init
+Create a local repository: $ git init
+Git clone
+Make a local copy of the server repository: $ git clone
+
+
+Git diff
+Track the changes that have not been staged: $ git diff
+Track the changes that have staged but not committed: $ git diff --staged
+Track the changes after committing a file: $ git diff HEAD
+Track the changes between two commits: $ git diff 
+Git Diff Branches: $ git diff < branch 2>
+Git status
+Display the state of the working directory and the staging area: $ git status
+Git show
+Shows objects: $ git show
