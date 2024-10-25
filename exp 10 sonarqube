@@ -1,0 +1,38 @@
+Steps to Implement Static Application Security Testing Using SonarQube:
+1.	Install SonarQube:
+o	For Ubuntu:
+bash
+Copy code
+sudo apt update
+sudo apt install openjdk-11-jdk
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.0.43852.zip
+unzip sonarqube-8.9.0.43852.zip
+cd sonarqube-8.9.0.43852
+
+2.	Start SonarQube:
+o	Start SonarQube by running:
+bash
+Copy code
+./bin/linux-x86-64/sonar.sh start
+
+3.	Access SonarQube Dashboard:
+o	Open a web browser and navigate to http://localhost:9000 to access the SonarQube dashboard.
+
+4.	Analyze Project Code:
+o	Install SonarQube scanner:
+bash
+Copy code
+brew install sonar-scanner
+o	Add a sonar-project.properties file in the root directory of your project with the following content:
+properties
+Copy code
+sonar.projectKey=my_project
+sonar.host.url=http://localhost:9000
+sonar.login=your_sonarqube_token
+o	Run the scanner:
+bash
+Copy code
+sonar-scanner
+
+5.	Review Results:
+o	SonarQube will analyze the code and display the results on the dashboard. Look for security vulnerabilities, bugs, and code smells.
