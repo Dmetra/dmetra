@@ -15,6 +15,7 @@ curl https://static.snyk.io/cli/latest/snyk-win.exe -o snyk.exe
 
 5.	Authenticate Your Machine:
 Run the command snyk auth to authenticate your machine with your Snyk account.
+
 6.	Scan for Security Issues:
 Before scanning, navigate to your project's directory.
 Ensure Snyk Code is enabled in the Snyk settings.
